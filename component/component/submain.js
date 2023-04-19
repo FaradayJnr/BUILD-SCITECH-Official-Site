@@ -2,13 +2,6 @@ class CarouselComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
   <main class="container" style=" background-color: rgba(21, 10, 113, 0.7);">
-    <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
-      <img class="me-3" src="/docs/5.3/assets/brand/bootstrap-logo-white.svg" alt="" width="48" height="38">
-      <div class="lh-1">
-        <h1 class="h6 mb-0 text-white lh-1">Creating and Building Imaginations</h1>
-        <small>Since 2022</small>
-      </div>
-    </div>
   
     <div class="my-3 p-3 bg-body rounded shadow-sm">
       <h6 class="border-bottom pb-2 mb-0">Recent updates</h6>
