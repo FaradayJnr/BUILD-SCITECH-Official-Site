@@ -1,7 +1,7 @@
 class CarouselComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-  <main class="container" style=" background-color: rgba(21, 10, 113, 0.7);">
+  <main class="container" style=" background-color: rgba(0, 0, 0, 0.7);">
   
     <div class="my-3 p-3 bg-body rounded shadow-sm">
       <h6 class="border-bottom pb-2 mb-0">Recent updates</h6>

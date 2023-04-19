@@ -90,7 +90,7 @@
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: rgba(21, 10, 113, 0.7);
+    background-color: rgba(0, 0, 0, .7);
     transition: transform .3s ease-in-out, visibility .3s ease-in-out;
   }
   .offcanvas-collapse.open {

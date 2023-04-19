@@ -6,6 +6,8 @@ class Jumbotron extends HTMLElement {
     #paragraph{
       justify-content: center;
       padding-top: 20px;
+      background-color: white;
+
     }
     </style>
     
