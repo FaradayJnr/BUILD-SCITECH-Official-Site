@@ -81,6 +81,17 @@
               .classList.toggle("open");
           });
       })();
+      function displayMission() {
+      document.getElementById('missionBtn').classList.add('active');
+      document.getElementById('visionBtn').classList.remove('active');
+      document.getElementById('paragraph').innerHTML = '<i>Our mission is to provide high-quality products and services to our customers.</i>';
+    }
+    
+    function displayVision() {
+      document.getElementById('missionBtn').classList.remove('active');
+      document.getElementById('visionBtn').classList.add('active');
+      document.getElementById('paragraph').innerHTML = '<i>Our vision is to become the industry leader in innovation and sustainability.</i>';
+    }
     </script>
   </body>
 </html>
