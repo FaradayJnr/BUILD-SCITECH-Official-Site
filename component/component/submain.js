@@ -1,19 +1,7 @@
 class CarouselComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <div class="nav-scroller bg-body shadow-sm">
-    <nav class="nav" aria-label="Secondary navigation">
-      <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
-      <a class="nav-link" href="#">
-        Projects
-        <span class="badge text-bg-light rounded-pill align-text-bottom">5</span>
-      </a>
-      <a class="nav-link" href="#">The Team</a>
-      <a class="nav-link" href="#">Let's talk</a>
-    </nav>
-  </div>
-  
-  <main class="container">
+  <main class="container" style=" background-color: rgba(21, 10, 113, 0.7);">
     <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
       <img class="me-3" src="/docs/5.3/assets/brand/bootstrap-logo-white.svg" alt="" width="48" height="38">
       <div class="lh-1">
